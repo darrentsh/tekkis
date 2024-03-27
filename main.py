@@ -33,7 +33,10 @@ def scrape_cars(first_page, last_page):
 
             for i in range(first_page, last_page):
                 car_data = scrape.scrape_car_data(browser, i)
-                db.insert_car_data(cursor, car_data)
+                try:
+                    db.insert_car_data(cursor, car_data)
+                except mysql.connector.ProgrammingError as err:
+                    print(err)
                 print(f"Scraped page {i}")
             conn.commit()
 
