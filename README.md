@@ -13,12 +13,13 @@ This project is designed to scrape data from multiple pages, run an API, and vis
 1. Clone the repository:
 [tekkis](https://github.com/darrentsh/tekkis)
 2. Navigate to the project directory:
-3. Install the required packages using pip:
+3. Install the required packages via requirements.txt using pip:
 
 ## Usage
-1. By default, the script will scrape data from 3 pages.
-2. After scraping, the API will be run automatically.
-3. For visualization purposes, open the `visualization.ipynb` notebook while the API is running.
+1. Run the file named `run.py`
+2. By default, the script will scrape data from 3 pages.
+3. After scraping, the API will be run automatically.
+4. For visualization purposes, open the `visualization.ipynb` notebook while the API is running.
 
 ## File Structure
 - `scrape.py`: Python script for scraping data.
