@@ -7,7 +7,7 @@ For visualization purpose, need to open the file name visualization.ipynb while 
 # Project Name
 
 ## Description
-This project is designed to scrape data from multiple pages, run an API, and visualize the results using a Jupyter notebook.
+This project is designed to scrape data from multiple car pages, run an API, and visualize the results using a Jupyter notebook.
 
 ## Installation
 1. Clone the repository:
