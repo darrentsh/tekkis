@@ -5,7 +5,7 @@ By default, the script will scrape 3 pages of data, the run the API
 
 For visualization purpose, need to open the file name visualization.ipynb while the api is running.  -->
 # Project Name
-
+# ## 
 ## Description
 This project is designed to scrape data from multiple pages, run an API, and visualize the results using a Jupyter notebook.
 

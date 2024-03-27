@@ -8,7 +8,7 @@ class API:
     def __init__(self):
         self.conn = mysql.connector.connect(
             host="localhost",
-            user="root",
+            user="LAPTOP-AO8BAO92",
             password="kyoebrn98",
             database="cars_database",
         )
@@ -16,7 +16,7 @@ class API:
 
         self.app = Flask(__name__)
         self.app.config["SQLALCHEMY_DATABASE_URI"] = (
-            "mysql+pymysql://root:kyoebrn98@localhost/cars_database"
+            "mysql+pymysql://LAPTOP-AO8BAO92:kyoebrn98@localhost/cars_database"
         )
         self.app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
         self.db = SQLAlchemy(self.app)
