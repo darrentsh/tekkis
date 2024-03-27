@@ -15,7 +15,7 @@ def scrape_cars(first_page, last_page):
     try:
         conn = mysql.connector.connect(
             host="localhost",
-            user="root",
+            user="LAPTOP-AO8BAO92",
             password="kyoebrn98",
             database="cars_database",
         )

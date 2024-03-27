@@ -16,7 +16,7 @@ class Database:
 
     def create_database(self):
         mydb = mysql.connector.connect(
-            host="localhost", user="root", password="kyoebrn98"
+            host="localhost", user="LAPTOP-AO8BAO92", password="kyoebrn98"
         )
         mycursor = mydb.cursor()
         mycursor.execute("CREATE DATABASE IF NOT EXISTS cars_database")
