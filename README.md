@@ -21,6 +21,10 @@ This project is designed to scrape data from multiple pages, run an API, and vis
 3. After scraping, the API will be run automatically.
 4. For visualization purposes, open the `visualization.ipynb` notebook while the API is running.
 
+## API Endpoint
+1. `/cars`: Returns all scraped data.
+2. `/cars/<int:id>`: Returns single car identified by its ID.
+   
 ## File Structure
 - `scrape.py`: Python script for scraping data.
 - `api.py`: Python script for running the API.
